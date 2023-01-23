@@ -1,0 +1,22 @@
+0)  TEST DATA
+- {
+     { 'Philips company, www.philips.com'}
+      { 'Samsung, www.samsung.com'}
+       { 'Sony, www.sony.com'}
+}
+
+1) Заголовок
+Адрес testdata[1] должен быть в выдаче bing.com по запросу testdata[0]"
+
+2) Критичность
+BLOCKER
+
+3) (optional) Предусловия
+Открыт браузер с главной страницей bing.com
+
+4) Шаги
+- Ввести tesdata[0] в поисковую строку
+- Нажать кнопку Enter
+
+5) Ожидаемый результат
+- Адрес  testdata[1]  должен быть в выдаче сайта
