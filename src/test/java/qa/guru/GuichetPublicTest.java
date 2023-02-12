@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class guichetPublicTest {
+public class GuichetPublicTest {
 
 
     public enum Locale {

@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class urlOnlineTradeRu {
+public class UrlOnlineTradeRu {
 
     @BeforeEach
     void beforeEach() {
